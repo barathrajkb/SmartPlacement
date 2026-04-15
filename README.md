@@ -208,7 +208,9 @@ Currently simulated in frontend state (can be connected to backend services next
 - Several scheduling and collaboration interactions
 - Some resource and resume enhancement actions
 
-## Author
-### Barath Raj KB
-### Bhuvishaa Sri MA
+## Authors
+
+**Barath Raj KB**
+
+**Bhuvishaa Sri MA**
 Built for HackFest by the SmartPlacement team.
