@@ -35,54 +35,54 @@ Interview prep tools are often fragmented across spreadsheets, random docs, and 
 
 ### Main Product Modules
 
-- Dashboard
+#### Dashboard
 - Readiness gauge and XP-style progress indicators
 - Personalized daily focus tasks
 - AI coaching nudges and upcoming deadlines
 
-- Roadmap
+#### Roadmap
 - Domain-aware weekly preparation plan
 - Progress tracking across tasks and sessions
 - Confidence and topic status side panel
 
-- Company Intelligence
+#### Company Intelligence
 - Target-company cards with match scores and prep signals
 - Role filters and sorting controls
 - Concept tags and interview pattern summaries
 
-- Mock Interview
+#### Mock Interview
 - 3-panel practice interface (context, answer workspace, live feedback)
 - Simulated scoring and AI feedback modal
 
-- Analytics
+#### Analytics
 - Readiness trend chart
 - Skill radar visualization
 - Practice heatmap
 - Cohort standing and time-investment breakdown
 
-- Collaborate (The Hive)
+#### Collaborate (The Hive)
 - Company-specific discussion hubs
 - Study groups and posting composer
 - Thread detail pages for forum conversations
 
-- Resume Builder
+#### Resume Builder
 - Section-based resume editor
 - AI enhancement triggers for selected sections
 - ATS-style score and optimization suggestions
 
-- Career Coach
+#### Career Coach
 - Chat-style AI coaching experience with suggested prompts
 - Session history panel and quick actions
 
-- Resource Library
+#### Resource Library
 - Search, category filtering, sorting, bookmarks
 - Grid/list browsing for curated learning resources
 
-- Scheduler
+#### Scheduler
 - Interview calendar, event markers, and scheduling controls
 - Application pipeline and upcoming session cards
 
-- Settings
+#### Settings
 - Profile update and persistence to Firestore
 - Notification toggles and preference sections
 
