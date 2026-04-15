@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-on-surface antialiased;
+  }
+}
+
+@layer utilities {
+  .bg-glass {
+    @apply bg-primary-container/20 backdrop-blur-xl;
+  }
+  .shadow-ambient {
+    box-shadow: 0 20px 40px rgba(6,14,32,0.4);
+  }
+  .text-shadow-glow {
+    text-shadow: 0 0 20px rgba(195, 192, 255, 0.4);
+  }
+  
+  /* Shared text clip gradients */
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+  }
+
+  /* Custom scrollbars */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-surface-container-lowest;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-surface-container-highest rounded-full border-2 border-surface-container-lowest;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-outline-variant;
+  }
+}
